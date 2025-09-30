@@ -22,11 +22,11 @@ return ans ;
 int main()
 {
      int num;
-    cout<< "enter decimal value"<<endl;
+    cout<< "enter binary number "<<endl;
    
     cin>> num;
- int dicimal = Deci_To_Bin(num);
- cout << dicimal;
+ int binary = Deci_To_Bin(num);
+ cout << binary;
 
 
 
