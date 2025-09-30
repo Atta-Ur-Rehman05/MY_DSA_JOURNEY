@@ -12,8 +12,11 @@ Every folder represents a new milestone in my journey to mastering **DSA & Compe
 🧮 `03_BASIC_MATH` → Math-based problems  
 🔁 `04_BASIC_RECURSION` → Recursion practice  
 ⚡ `05_SORTING_TECHNIQUE` → Sorting algorithms  
-📚 `06_STL` → Standard Template Library exercises  
-🗂️ `07_ARRAYS` → Array-based problems  
+📚 `06_STL` → Standard Template Library exercises
+### 07_Binary Number
+- Binary → Decimal Conversion  
+- Decimal → Binary Conversion
+🗂️ `08_ARRAYS` → Array-based problems  
 
 ---
 
