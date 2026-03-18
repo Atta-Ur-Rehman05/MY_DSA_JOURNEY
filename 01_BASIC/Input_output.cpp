@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+<<<<<<< HEAD
 void greeting(){
   string name;
   cout<< "enter your nam"<<endl;
@@ -25,11 +26,29 @@ int tempinfernhit(int temp){
   return  ((temp * 9/5) + 32);
 }
 
+=======
+void pattren1(int n)
+{
+  for(int i = 0 ; i < n; i++)
+  {
+    for(int j = 0; j < n; j++)
+    {
+        cout<<"* ";
+
+    }
+    cout<<endl;
+
+  }
+
+
+}
+>>>>>>> 7695eb876c2180f8c170242e8afbd892569fd951
 
 
 
 int main()
 {
+<<<<<<< HEAD
         /* int num,num3;
         cout<< "Enter num1 : ";
         cin>> num;
@@ -78,11 +97,21 @@ int main()
 
   int ferhnhit = tempinfernhit(C);
   cout<< "temprature in fernhite is "<< ferhnhit;
+=======
+ int n ;
+ cout<<"entr n : "<<endl;
+ cin>> n;
+ pattren1(n);
+>>>>>>> 7695eb876c2180f8c170242e8afbd892569fd951
 
 
 
 
 
 
+<<<<<<< HEAD
  return 0;
+=======
+return 0;
+>>>>>>> 7695eb876c2180f8c170242e8afbd892569fd951
 }
