@@ -13,16 +13,79 @@ for(int i = 0 ; i < n; i++){
 }
 }
 
+void shape2(int n ){
+for(int i = 1 ; i<=n; i++){
+    for(int j = 1 ; j<=i; j++){
+        cout<<'*';
+    }
+    cout<<endl;
+}
 
 
+}
 
+void shape3(int n){
 
+    for(int i = 1; i<=n; i++){
+        for(int j = 1 ; j<=i; j++){
+            cout<< j ;
+        }
+        cout<< endl;
+    }
+}
 
+void shape4(int n){
+    
+    for(int i = 1; i<=n; i++){
+        for(int j = 1 ; j<=i; j++){
+            cout<< i ;
+        }
+        cout<< endl;
+    }
+}
+
+void shape5(int n){
+    
+    for(int i = 1; i<=n; i++){
+        for(int j = 1 ; j<= n-i+1; j++){
+            cout<< '*';
+        }
+        cout<< endl;
+    }
+}
+
+void shape6(int n){
+    
+    for(int i = 1; i<=n; i++){
+        for(int j = 1 ; j<= n-i+1; j++){
+            cout<< j;
+        }
+        cout<< endl;
+    }
+}
+
+void shape7(int n){
+    
+    for(int i = 0; i<n; i++){
+        for(int j = 0 ; j< n-i-1; j++){
+            cout<< ' ';
+        }
+
+        for(int j = 0 ; j< 2*i+1; j++){
+            cout<< '*';
+        }
+
+        for(int j = 0 ; j< n-i-1; j++){
+            cout<< ' ';
+        }
+        cout<< endl;
+    }
+}
 
 
 
 int main(){
- printRactangle(5);
+ shape7(5);
 
 
 
