@@ -89,6 +89,7 @@ cout << "not armstrong number";
  }
 //  prime number
  int prime_No(int n )
+
 { int count = 0 ;
 for (int i = 1 ; i <= n ; i++)
 {
@@ -110,6 +111,7 @@ cout << " not prime number";
 }
 // find gcd
 int  gcd_print(int n1,int n2)
+
 {   int gcd = 1;
     for(int i = 1 ; i <= min(n1,n2); i++)
     {
@@ -117,10 +119,7 @@ int  gcd_print(int n1,int n2)
         {
             gcd = i;
 
-        }
-
-    }
-
+               }       }
 return gcd;
 }
 
